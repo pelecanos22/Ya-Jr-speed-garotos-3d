@@ -1,0 +1,10 @@
+{
+  "name": "YA JR SPEED GAROTOS 2 — 3D",
+  "short_name": "YA JR SPEED",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#050711",
+  "theme_color": "#050711"
+}
