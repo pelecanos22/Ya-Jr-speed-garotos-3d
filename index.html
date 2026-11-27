@@ -454,6 +454,10 @@ function render(now){
 previewTrack();setGear(1,false);show(false);renderer.setAnimationLoop(render);
 }
 </script>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  }
+</script>
 </body>
 </html>
